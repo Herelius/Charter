@@ -1,5 +1,8 @@
+import React from "react";
+import Main from "./main";
+
 function App() {
-  return <div className="App">Hello</div>;
+  return <Main />;
 }
 
 export default App;
