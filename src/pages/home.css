@@ -19,12 +19,44 @@
   margin-bottom: 1rem;
 }
 
-.containerExemple {
-  background-color: #78bbfa;
-  padding: 16px;
-  margin-inline: 10%;
+.carouselContainer {
+  margin-inline: 25%;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   display: flex;
   justify-content: space-around;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
+.formContainer {
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  margin-inline: 10%;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background-color: #78bbfa;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.chartContainer {
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  margin-inline: 10%;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background-color: #78bbfa;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.chart {
+  color: #ffffff;
+  padding: 8px;
+  margin: 1%;
+  background-color: #e8f4ff;
 }
